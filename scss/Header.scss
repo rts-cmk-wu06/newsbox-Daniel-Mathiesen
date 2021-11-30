@@ -1,0 +1,22 @@
+.Nav_header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    font-size: 1.7rem;
+    border-bottom: solid 1px;
+}
+
+.Div__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+}
+
+.nav-container__title{
+    width: 180px;
+}

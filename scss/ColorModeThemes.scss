@@ -1,0 +1,42 @@
+.LightModeTheme{
+    .backgroundColor{
+        background-color: #FFFFFF;
+    }
+    .secondaryBackgroundColor{
+        background-color: #e7e7e7;
+    }
+    .BorderColor{
+        border-color: #F0F3F4;
+    }
+    .HeaderIconColors-H{
+        color: #324755
+    }
+    .secondaryInteractionIcon-h{
+        color: #62b3d3;
+    }
+    .h2InteractionIcon{
+        color: #6b6b6b;
+    }
+}
+
+.DarkModeTheme{
+    .backgroundColor{
+        background-color: #15202b;
+    }
+    .secondaryBackgroundColor{
+        background-color: #0f1720;
+    }
+    .BorderColor{
+        border-color: #192734;
+    }
+    .HeaderIconColors-H{
+        color: #FFFFFF;
+    }
+    .secondaryInteractionIcon-h{
+        color: #cacaca;
+    }
+    .h2InteractionIcon{
+        color: #6b6b6b;
+    }
+}
+
