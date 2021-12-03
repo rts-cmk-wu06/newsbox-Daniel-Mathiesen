@@ -43,7 +43,7 @@
     border-bottom: solid 1px;
 
     .News__content_img{
-        background-image: url("https://via.placeholder.com/480");
+        // background-image: url("https://via.placeholder.com/480");
         background-size: cover;
         border-radius: 100%;
         min-width: 20vw;
@@ -54,10 +54,20 @@
         width: 69%;
         text-overflow: ellipsis;
         overflow: hidden;
+        text-decoration: none;
 
         h5{
             font-size: 1.1rem;
         }
     }
 
+}
+
+.News__content > *, .News__content > * > *, .News__content > * > * > *{
+    z-index: 1;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }

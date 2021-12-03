@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="0; url=newsbox.html"/>
     <link rel="stylesheet" href="FontAwesome/css/all.min.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link
@@ -20,12 +19,36 @@
     <title>Inbox</title>
   </head>
   <body class="LightModeTheme" id="BodyColor">
-<p>
-  Redirecting...
-</p>
+    <div class="wrapper backgroundColor">
+      <header class="Nav_header__wrapper BorderColor backgroundColor">
+        <div class="Div__wrapper">
+          <a href="archive.html" class="HeaderIconColors-H">
+            <i class="fa fa-inbox"></i>
+          </a>
+        </div>
+        <div class="Div__wrapper HeaderIconColors-H">Newsbox</div>
+        <div class="Div__wrapper HeaderIconColors-H">
+          <a href="settings-news.html" class="HeaderIconColors-H">
+            <i class="fa fa-cog"></i>
+          </a>
+        </div>
+      </header>
+      <div class="Search_bar__input main__container BorderColor">
+        <div class="Search__input">
+          <input type="" placeholder="Search News" />
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+      <main id="Main" class="Main__wrapper">
+        <div>
+
+        </div>
+        <div id="details__container"></div>
+      </main>
+    </div>
   </body>
 </html>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js" integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="JavaScripts/DarkMode.js"></script>
-<script src="JavaScripts/swipeArchive.js"></script>
+<script src="JavaScripts/apiGenerator.js"></script>
