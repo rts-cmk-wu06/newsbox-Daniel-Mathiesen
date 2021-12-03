@@ -5,6 +5,7 @@ const darkModeToggle = document.querySelector("#ChangeDarkMode");
 
 const enableDarkMode = () => {
     // Add Darkmode class to body
+    document.body.classList.remove("LightModeTheme")
     document.body.classList.add("DarkModeTheme")
     // update DarkMode in localStorage
     localStorage.setItem("DarkMode", "enabled")
@@ -13,6 +14,7 @@ const enableDarkMode = () => {
 const disableDarkMode = () => {
     // Add Darkmode class to body
     document.body.classList.remove("DarkModeTheme")
+    document.body.classList.add("LightModeTheme")
     // update DarkMode in localStorage
     localStorage.setItem("DarkMode", null)
 };
